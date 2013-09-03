@@ -1,0 +1,28 @@
+<?php
+
+# Have a look in includes/defaults.inc.php for examples of settings you can set here. DO NOT EDIT defaults.inc.php!
+#
+// Database config
+$config['db_host'] = "<%= @db_host %>";
+$config['db_user'] = "<%= @db_username %>";
+$config['db_pass'] = "<%= @db_password %>" ;
+$config['db_name'] = "<%= @db_name %>";
+
+// Location
+$config['install_dir']  = "<%= @installdir %>";
+
+// Thie should *only* be set if you want to *force* a particular hostname/port
+// It will prevent the web interface being usable form any other hostname
+##$config['base_url']        = "http://observium.company.com";
+#
+// Default community list to use when adding/discovering
+$config['snmp']['community'] = array("public");
+
+// Authentication Model
+$config['auth_mechanism'] = "mysql";    // default, other options: ldap, http-auth, please see documentation for config help
+
+//Enable billing
+$config['enable_billing']               = 1;
+
+// End config.php
+

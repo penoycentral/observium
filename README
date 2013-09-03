@@ -2,6 +2,7 @@ observium
 
 This is the observium puppet module. Observium is an autodiscovering SNMP based network monitoring system.
 Still work in progress, but definitely this module already works. Test first on your development systems. Use at your own risk.
+This module only supports Ubuntu or same flavors. Redhat support in the future, if have time.
 
 License
 -------
